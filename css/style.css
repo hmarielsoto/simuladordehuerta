@@ -1,0 +1,210 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+html{
+        font-size: 62.5%
+    }
+
+body{
+    background-color: rgb(163, 194, 113);
+}
+
+h1{
+    font-family: 'Berkshire Swash', cursive;
+    color: darkslategray;
+    margin: 25px;
+    font-size: 5rem;
+    text-align: center;  
+}
+
+h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(75, 68, 28);
+    margin: 15px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3{
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px;
+    color: black;
+    text-align: center; 
+}
+
+h4{
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px; 
+    color: darkslategray;
+}
+
+h5{
+    font-family:'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 10px; 
+    color: black 
+}
+
+label{
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 10px; 
+    color: black; 
+}
+
+p{
+    font-family:'Lato', sans-serif;
+    font-size: 1.6rem
+}
+
+a{
+    color: brown;
+}
+
+
+li{
+    font-family:'Lato', sans-serif;
+    font-size: 1.6rem
+}
+
+
+
+.informacion{
+    display: none;
+    margin-bottom: 10px;
+}
+
+.botones{
+    border-radius: 12px;
+    background-color: darkslategray;
+    color: white;
+    border-color: darkslategray;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family:'Lato', sans-serif;
+
+}
+
+
+.detallesboton{
+    border-radius: 12px;
+    background-color: white;
+    color: darkslategray;
+    border-color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family:'Lato', sans-serif;
+    margin: 5px;
+
+}
+
+#detallesverano{
+    display: none;
+}
+
+#detallesotoño{
+    display: none;
+}
+
+
+#verano{
+    background-color: rgb(255, 253, 137);
+}
+
+#averano{
+    text-decoration: underline;
+}
+
+#otoño{
+    background-color: rgb(240, 209, 162);
+}
+
+#aotoño{
+    text-decoration: underline;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.detalles{
+    text-align: center;
+}
+
+.rellenar{
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.seccion{
+    padding: 10px;
+}
+
+.texto{
+    margin: 10px;
+    padding: 5px;
+}
+
+.imghuerta{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(163, 194, 113);
+    font-size: 1.5rem;
+    font-family:'Lato', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+#detallesextra{
+    background-color: rgb(203, 204, 172);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.botonesPlagas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.elementosPlagas{
+    display: flex;
+    flex-direction: column;
+}

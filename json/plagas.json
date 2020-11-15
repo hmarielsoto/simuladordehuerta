@@ -1,0 +1,25 @@
+{
+    "nombre" : "plagas",
+    "definicion" : "insectos que provocan daños",
+    "ejemplos": [
+        {
+            "id": "PULGÓN",
+            "zonas_afectadas": "brotes nuevos",
+            "signos": "colonias de insectos en los brotes",
+            "control" : "preparado de cebolla o alcohol de ajo"
+        },
+        {
+            "id": "CARACOL",
+            "zonas_afectadas": "verduras de hoja",
+            "signos": "hojas mordidas y rastro de baba",
+            "control" : "trampas hechas con cerveza"
+        },
+        {
+            "id": "HORMIGA",
+            "zonas_afectadas": "hojas",
+            "signos": "hojas y restos de hoja masticados",
+            "control" : "trampas de arroz partido"
+        }
+
+    ]
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUERTA EN TU HOGAR</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Croissant+One&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="logo">
+    <h1>- Huerta en tu hogar -</h1>
+  </div>
+    
+    <div class="presentacion">
+        <div class="imghuerta"> <img src="img/huerta.jpg" alt="foto"></div>
+        <div class="texto" id="textohuerta">
+            <h2>A través de unos pocos datos te vamos a dar la información necesaria para que empieces tu propia huerta
+            </h2>
+            <h5>Este proyecto se basa en los principios de la producción de huerta agroecológica, por lo tanto sugerimos siempre respetar las diferentes temporadas de cultivo y utilizar herramientas naturales de control de plagas y enfermedades</h5>
+            <h3>- ¿Cuál es tu nombre? -</h3>
+            <input type="text" class="rellenar" id="textonombre">
+            <input type="button" class="botones" id="nombreboton" value="Enviar">
+            <h2>Elegí que tipo de huerta te gustaría tener <a href="#" id="aotoño">otoño</a> o <a href="#" id="averano">verano</a></h2>
+            <img src="img/cuidados.png" alt="cuidados">
+        </div>
+     
+    </div>
+
+<div class="seccion" id="otoño">
+    <h2>Una huerta de otoño es aquella que se cosecha entre mayo y julio</h2>
+    <h3>Elegí las verduras y frutas que te interesen de esta selección</h3>
+    <div class="selecciones">
+
+        <div class="elementos"> <input type="button" class="botones" id="elegirlechugao" value="lechuga">
+          <input type="button" class="detallesboton" id="lechugadetalles" value="ver detalles">
+          <div class="informacion" id="infolechuga">
+            <h3>Consejos de cultivo de la lechuga</h3>
+            <ul>
+              <li>Riego aconsejado: abundante</li>
+              <li>Distancia recomendada entre plantines: 20cm </li>
+              <li>Tener en cuenta: cosechar desde afuera hacia adentro </li>
+            </ul>
+          </div>
+          <div><img src="img/lechuga.png" alt="lechuga"></div>
+        </div>
+        <div class="elementos"> <input type="button" class="botones" id="elegirkaleo" value="kale">
+          <input type="button" class="detallesboton" id="kaledetalles" value="ver detalles">
+          <div class="informacion" id="infokale">
+            <h3>Consejos de cultivo del Kale</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 30cm </li>
+              <li>Tener en cuenta: eliminar hojas amarillas</li>
+            </ul>
+          </div>
+          <div><img src="img/kale.png" alt="kale"></div>
+        </div>
+        <div class="elementos"> <input type="button" class="botones" id="elegirpakchoio" value="pak-choi">
+          <input type="button" class="detallesboton" id="pakchoidetalles" value="ver detalles">
+          <div class="informacion" id="infopakchoi">
+            <h3>Consejos de cultivo del Pak-choi</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 30cm </li>
+              <li>Tener en cuenta: cosechar rápidamente </li>
+            </ul>
+          </div>
+          <div><img src="img/pakchoi.png" alt="pak-choi"></div>
+        </div>
+        <div class="elementos"> <input type="button" class="botones" id="elegiracelgao" value="acelga">
+          <input type="button" class="detallesboton" id="acelgadetalles" value="ver detalles">
+          <div class="informacion" id="infoacelga">
+            <h3>Consejos de cultivo de la acelga</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 30cm</li>
+              <li>Tener en cuenta: cosechar permanentemente</li>
+            </ul>
+          </div>
+          <div><img src="img/acelga.png" alt="acelga"></div>
+        </div>
+        <div class="elementos"> <input type="button" class="botones" id="elegirquinotoso" value="quinotos">
+          <input type="button" class="detallesboton" id="quinotosdetalles" value="ver detalles">
+          <div class="informacion" id="infoquinotos">
+            <h3>Consejos de cultivo de los quinotos</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 100cm</li>
+              <li>Tener en cuenta: plantar en maceta</li>
+            </ul>
+          </div>
+            <div><img src="img/quinoto.png" alt="quinotos"></div>
+          </div>
+          <div class="elementos"> <input type="button" class="botones" id="elegirlimoneso" value="limones">
+            <input type="button" class="detallesboton" id="limondetalles" value="ver detalles">
+            <div class="informacion" id="infolimon">
+              <h3>Consejos de cultivo del limón</h3>
+              <ul>
+                <li>Riego aconsejado: medio</li>
+                <li>Distancia recomendada entre plantines: 200cm</li>
+                <li>Tener en cuenta: plantar en maceta</li>
+              </ul>
+            </div>
+            <div><img src="img/limon.png" alt="limon"></div>
+          </div>
+        <div class="elementos">
+            <input type="button" class="botones" id="elegirbatataso" value="batatas">
+            <input type="button" class="detallesboton" id="batatasdetalles" value="ver detalles">
+            <div class="informacion" id="infobatata">
+              <h3>Consejos de cultivo de la batata</h3>
+              <ul>
+                <li>Riego aconsejado: medio</li>
+                <li>Distancia recomendada entre plantines: 40cm</li>
+                <li>Tener en cuenta: sembrar por gajos</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/batata.png" alt="batatas"></div>
+          </div>
+    
+          <div class="elementos">
+            <input type="button" class="botones" id="elegirzanahoriao" value="zanahorias">
+            <input type="button" class="detallesboton" id="zanahoriadetalles" value="ver detalles">
+            <div class="informacion" id="infozanahoria">
+              <h3>Consejos de cultivo de la zanahoria</h3>
+              <ul>
+                <li>Riego aconsejado: medio</li>
+                <li>Distancia recomendada entre plantines: 5cm</li>
+                <li>Tener en cuenta: sembrar desde semillas</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/zanahoria.png" alt="zanahorias"></div>
+          </div>
+    
+        
+        </div>
+        
+        <div id="huertasoñada2">   <input type="button" class="botones" id="seleccionfinal2" value="ENVIAR SELECCIÓN HUERTA"></div>
+ 
+        <div class="detalles" id="detallesotoño">
+            <h4>Ingrese el nombre de la planta en mayúscula para saber más detalles de cultivo</h4>
+            <input type="text" class="rellenar" id="pepinolechuga1">
+            <input type="button" class="botones" id="pepinolechugaboton1" value="Enviar">
+        </div>
+            <div class="detalles" id="detallesotoño2">
+                <h4>Ingrese su zona para recomendaciones de viveros donde comprar suministros </h4>
+                <input type="radio" value="zona sur" name="zonas2" id="radiosur2">  <label for="radiosur2">Zona Sur</label>
+                <input type="radio" value="zona norte" name="zonas2" id="radionorte2">  <label for="radionorte2">Zona Norte</label>
+                <input type="radio" value="zona oeste" name="zonas2" id="radiooeste2"> <label for="radiooeste2">Zona Oeste</label>
+                <input type="radio" value="caba" name="zonas2" id="radiocaba2"> <label for="radiocaba2">CABA</label>
+            <input type="button" class="botones" id="viverosboton2" value="Enviar">
+            </div>
+</div>
+<div  class="seccion" id="verano">
+    <h2>Una huerta de verano es aquella que se cosecha entre septiembre y enero </h2>
+    <h3>Elegí las verduras y frutas que te interesen de esta selección</h3>
+    <div class="selecciones">
+
+        <div class="elementos">
+          <input type="button" class="botones" id="elegirpapasv" value="papas">
+          <input type="button" class="detallesboton" id="papadetalles" value="ver detalles">
+          <div class="informacion" id="infopapa">
+            <h3>Consejos de cultivo de la papa</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 40cm</li>
+              <li>Tener en cuenta: sembrar directamente</li>
+            </ul>
+          </div>
+          <div>
+            <img src="img/papas.png" alt="papas"></div>
+        </div>
+
+        <div class="elementos">
+            <input type="button" class="botones" id="elegirtomatesv" value="tomates">
+            <input type="button" class="detallesboton" id="tomatedetalles" value="ver detalles">
+            <div class="informacion" id="infotomate">
+              <h3>Consejos de cultivo del tomate</h3>
+              <ul>
+                <li>Riego aconsejado: abundante</li>
+                <li>Distancia recomendada entre plantines: 40cm</li>
+                <li>Tener en cuenta: utilizar tutores</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/tomates.png" alt="tomate">
+            </div>
+          </div>
+
+        <div class="elementos"> <input type="button" class="botones" id="elegirlechugav" value="lechuga">
+          <input type="button" class="detallesboton" id="lechugadetalles2" value="ver detalles">
+          <div class="informacion" id="infolechuga2">
+            <h3>Consejos de cultivo de la lechuga</h3>
+            <ul>
+              <li>Riego aconsejado: abundante</li>
+              <li>Distancia recomendada entre plantines: 20cm</li>
+              <li>Tener en cuenta: cosechar de afuera hacia adentro</li>
+            </ul>
+          </div>
+            <div><img src="img/lechuga.png" alt="lechuga"></div>
+          </div>
+
+          <div class="elementos"> <input type="button" class="botones" id="elegiracelgav" value="acelga">
+            <input type="button" class="detallesboton" id="acelgadetalles2" value="ver detalles">
+            <div class="informacion" id="infoacelga2">
+              <h3>Consejos de cultivo de la acelga</h3>
+              <ul>
+                <li>Riego aconsejado: medio</li>
+                <li>Distancia recomendada entre plantines: 30cm</li>
+                <li>Tener en cuenta: cosechar permanentemente</li>
+              </ul>
+            </div>
+            <div><img src="img/acelga.png" alt="acelga"></div>
+          </div>
+
+          <div class="elementos"> <input type="button" class="botones" id="elegiruvasv" value="uvas">
+            <input type="button" class="detallesboton" id="uvasdetalles" value="ver detalles">
+            <div class="informacion" id="infouvas">
+              <h3>Consejos de cultivo de la uva</h3>
+              <ul>
+                <li>Riego aconsejado: medio</li>
+                <li>Distancia recomendada entre plantines: 80cm</li>
+                <li>Tener en cuenta: utilizar enrejados como apoyo</li>
+              </ul>
+            </div>
+            <div><img src="img/uva.png" alt="frutillas"></div>
+          </div>
+
+          <div class="elementos"> <input type="button" class="botones" id="elegirfrutillasv" value="frutillas">
+            <input type="button" class="detallesboton" id="frutilladetalles" value="ver detalles">
+            <div class="informacion" id="infofrutilla">
+              <h3>Consejos de cultivo de la frutilla</h3>
+              <ul>
+                <li>Riego aconsejado: abundante</li>
+                <li>Distancia recomendada entre plantines: 30cm</li>
+                <li>Tener en cuenta: evitar contacto con de la fruta con el suelo</li>
+              </ul>
+            </div>
+            <div><img src="img/frutillas.png" alt="frutillas"></div>
+          </div>
+
+          <div class="elementos">
+            <input type="button" class="botones" id="elegirpepinov" value="pepino">
+            <input type="button" class="detallesboton" id="pepinodetalles" value="ver detalles">
+            <div class="informacion" id="infopepino">
+              <h3>Consejos de cultivo del pepino</h3>
+              <ul>
+                <li>Riego aconsejado: abundante</li>
+                <li>Distancia recomendada entre plantines: 60cm</li>
+                <li>Tener en cuenta: cosechar rápidamente</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/pepino.png" alt="pepino">
+            </div>
+          </div>
+          <div class="elementos">
+            <input type="button" class="botones" id="elegirberenjenav" value="berenjena">
+            <input type="button" class="detallesboton" id="berenjenadetalles" value="ver detalles">
+            <div class="informacion" id="infoberenjena">
+              <h3>Consejos de cultivo de la berenjena</h3>
+              <ul>
+                <li>Riego aconsejado: abundante</li>
+                <li>Distancia recomendada entre plantines: 50cm</li>
+                <li>Tener en cuenta: usar tutores</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/berenjena.png" alt="berenjena">
+            </div>
+          </div>
+          <div class="elementos">
+            <input type="button" class="botones" id="elegirchauchav" value="chaucha">
+            <input type="button" class="detallesboton" id="chauchadetalles" value="ver detalles">
+            <div class="informacion" id="infochaucha">
+              <h3>Consejos de cultivo de la chaucha</h3>
+              <ul>
+                <li>Riego aconsejado: abundante</li>
+                <li>Distancia recomendada entre plantines: 30cm</li>
+                <li>Tener en cuenta: regar más con la floración</li>
+              </ul>
+            </div>
+            <div>
+              <img src="img/chaucha.png" alt="chaucha">
+            </div>
+          </div>
+  
+        <div class="elementos">
+          <input type="button" class="botones" id="elegirzanahoriav" value="zanahorias">
+          <input type="button" class="detallesboton" id="zanahoriadetalles2" value="ver detalles">
+          <div class="informacion" id="infozanahoria2">
+            <h3>Consejos de cultivo de la zanahoria</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 5cm</li>
+              <li>Tener en cuenta: sembrar desde semillas</li>
+            </ul>
+          </div>
+          <div>
+            <img src="img/zanahoria.png" alt="zanahorias"></div>
+        </div>
+  
+        <div class="elementos">
+          <input type="button" class="botones" id="elegirrabanitosv" value="rabanitos">
+          <input type="button" class="detallesboton" id="rabanitosdetalles" value="ver detalles">
+          <div class="informacion" id="inforabanitos">
+            <h3>Consejos de cultivo del rabanito</h3>
+            <ul>
+              <li>Riego aconsejado: medio</li>
+              <li>Distancia recomendada entre plantines: 5cm</li>
+              <li>Tener en cuenta: sembrar directamente</li>
+            </ul>
+          </div>
+          <div>
+            <img src="img/rabanito.png" alt="rabanitos"></div>
+        </div>
+  
+  
+      </div>
+      <div id="huertasoñada">   <input type="button" class="botones" id="seleccionfinal" value="ENVIAR SELECCIÓN HUERTA"></div>
+      <div class="detalles" id="detallesverano">
+        <h4>Ingrese el nombre de la planta en mayúscula para saber más detalles de cultivo</h4>
+        <input type="text" class="rellenar" id="pepinolechuga">
+        <input type="button" class="botones" id="pepinolechugaboton" value="Enviar">
+    </div>
+        <div class="detalles" id="detallesverano2">
+            <h4>Ingrese su zona para recomendaciones de viveros donde comprar suministros </h4>
+        
+
+        <input type="radio" value="zona sur" name="zonas" id="radiosur">  <label for="radiosur">Zona Sur</label>
+        <input type="radio" value="zona norte" name="zonas" id="radionorte">  <label for="radionorte">Zona Norte</label>
+        <input type="radio" value="zona oeste" name="zonas" id="radiooeste"> <label for="radiooeste">Zona Oeste</label>
+        <input type="radio" value="caba" name="zonas" id="radiocaba"> <label for="radiocaba">CABA</label>
+        <input type="button" class="botones" id="viverosboton" value="Enviar">
+        </div>
+        
+    
+      
+ 
+</div>
+<div id="detallesextra">
+  <h4>Elija una opción de problemas posibles en la huerta para obtener más información</h4>
+  <div class="botonesPlagas">
+    <div class="elementosPlagas">
+      <div><img src="img/pulgones.png" alt="pulgones"></div>
+      <input type="button" class="botones" id="botonplagas" value="Pulgones">
+    </div>
+    <div class="elementosPlagas">
+      <img src="img/dampingoff.png" alt="Dampingoff">
+      <input type="button" class="botones" id="botonenfermedades" value="Dampingoff">
+    </div>
+
+    <div class="elementosPlagas">
+      <div><img src="img/caracoles.png" alt="Caracoles"></div>
+      <input type="button" class="botones" id="botonplagas2" value="Caracoles">
+    </div>
+
+    <div class="elementosPlagas">
+      <div><img src="img/oidio.png" alt="Oidio"></div>
+      <input type="button" class="botones" id="botonenfermedades2" value="Oidio">
+    </div>
+    <div class="elementosPlagas">
+      <div><img src="img/hormigas.png" alt="Hormigas"></div>
+      <input type="button" class="botones" id="botonplagas3" value="Hormigas">
+    </div>
+    <div class="elementosPlagas">
+      <div><img src="img/mildiu.png" alt="Mildiu"></div>
+      <input type="button" class="botones" id="botonenfermedades3" value="Mildiu">
+    </div>
+    
+    
+  </div>
+</div>
+<footer>Página creada por Helga Mariel Soto - Para más información sobre huertas y consejos personalizados entra a <a href="instagram.com/elviverodehelga">El vivero de Helga</a></footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="js/simulador.js"></script>
+</body>
+
+</html>

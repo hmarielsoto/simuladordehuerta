@@ -1,0 +1,25 @@
+{
+    "nombre" : "enfermedades",
+    "definicion" : "alteraciones que afectan a la planta",
+    "ejemplos": [
+        {
+            "id": "DAMPING-OFF",
+            "zonas_afectadas": "los tallos de los almacigos",
+            "signos": "plantines raquíticos y amarillentos",
+            "control" : "mejorando el drenaje"
+        },
+        {
+            "id": "OIDIO",
+            "zonas_afectadas": "las hojas de zapallo, poroto y tomate",
+            "signos": "polvillo blanco",
+            "control" : "con infusión de manzanilla"
+        },
+        {
+            "id": "MILDIU",
+            "zonas_afectadas": "las hojas",
+            "signos": "manchas verdes y amarillas",
+            "control" : "con infusión de manzanilla"
+        }
+
+    ]
+}
