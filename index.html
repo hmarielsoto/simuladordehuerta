@@ -35,10 +35,12 @@
 
 <div class="seccion" id="otoño">
     <h2>Una huerta de otoño es aquella que se cosecha entre mayo y julio</h2>
-    <h3>Elegí las verduras y frutas que te interesen de esta selección</h3>
+    <h3 class="subtitulo">Elegí las verduras y frutas que te interesen de para esta temporada</h3>
     <div class="selecciones">
 
-        <div class="elementos"> <input type="button" class="botones" id="elegirlechugao" value="lechuga">
+        <div class="elementos"> 
+          <div> <input type="checkbox" name="verdurasotoño" value="lechuga" id="checklechuga"> <label for="checklechuga">LECHUGA</label></div>
+         
           <input type="button" class="detallesboton" id="lechugadetalles" value="ver detalles">
           <div class="informacion" id="infolechuga">
             <h3>Consejos de cultivo de la lechuga</h3>
@@ -50,7 +52,9 @@
           </div>
           <div><img src="img/lechuga.png" alt="lechuga"></div>
         </div>
-        <div class="elementos"> <input type="button" class="botones" id="elegirkaleo" value="kale">
+        <div class="elementos"> 
+          <div><input type="checkbox" name="verdurasotoño" value="kale" id="checkkale"> <label for="checkkale">KALE</label></div>
+          
           <input type="button" class="detallesboton" id="kaledetalles" value="ver detalles">
           <div class="informacion" id="infokale">
             <h3>Consejos de cultivo del Kale</h3>
@@ -62,7 +66,9 @@
           </div>
           <div><img src="img/kale.png" alt="kale"></div>
         </div>
-        <div class="elementos"> <input type="button" class="botones" id="elegirpakchoio" value="pak-choi">
+        <div class="elementos"> 
+          <div> <input type="checkbox" name="verdurasotoño" value="pak-choi" id="checkpakchoi"> <label for="checkpakchoi">PAK-CHOI</label></div>
+         
           <input type="button" class="detallesboton" id="pakchoidetalles" value="ver detalles">
           <div class="informacion" id="infopakchoi">
             <h3>Consejos de cultivo del Pak-choi</h3>
@@ -74,7 +80,8 @@
           </div>
           <div><img src="img/pakchoi.png" alt="pak-choi"></div>
         </div>
-        <div class="elementos"> <input type="button" class="botones" id="elegiracelgao" value="acelga">
+        <div class="elementos"> <div> <input type="checkbox" name="verdurasotoño" value="acelga" id="checkacelga"> <label for="checkacelga">ACELGA</label></div>
+         
           <input type="button" class="detallesboton" id="acelgadetalles" value="ver detalles">
           <div class="informacion" id="infoacelga">
             <h3>Consejos de cultivo de la acelga</h3>
@@ -86,7 +93,8 @@
           </div>
           <div><img src="img/acelga.png" alt="acelga"></div>
         </div>
-        <div class="elementos"> <input type="button" class="botones" id="elegirquinotoso" value="quinotos">
+        <div class="elementos"> <div><input type="checkbox" name="verdurasotoño" value="kale" id="checkkale"> <label for="checkpepino">QUINOTOS</label></div>
+          
           <input type="button" class="detallesboton" id="quinotosdetalles" value="ver detalles">
           <div class="informacion" id="infoquinotos">
             <h3>Consejos de cultivo de los quinotos</h3>
@@ -98,7 +106,7 @@
           </div>
             <div><img src="img/quinoto.png" alt="quinotos"></div>
           </div>
-          <div class="elementos"> <input type="button" class="botones" id="elegirlimoneso" value="limones">
+          <div class="elementos"> <div> <input type="checkbox" name="verdurasotoño" value="limon" id="checklimon"> <label for="checklimon">LIMÓN</label></div>
             <input type="button" class="detallesboton" id="limondetalles" value="ver detalles">
             <div class="informacion" id="infolimon">
               <h3>Consejos de cultivo del limón</h3>
@@ -111,7 +119,7 @@
             <div><img src="img/limon.png" alt="limon"></div>
           </div>
         <div class="elementos">
-            <input type="button" class="botones" id="elegirbatataso" value="batatas">
+          <div> <input type="checkbox" name="verdurasotoño" value="batata" id="checkbatata"> <label for="checkbatata">BATATA</label></div>
             <input type="button" class="detallesboton" id="batatasdetalles" value="ver detalles">
             <div class="informacion" id="infobatata">
               <h3>Consejos de cultivo de la batata</h3>
@@ -126,7 +134,7 @@
           </div>
     
           <div class="elementos">
-            <input type="button" class="botones" id="elegirzanahoriao" value="zanahorias">
+            <div> <input type="checkbox" name="verdurasotoño" value="zanahoria" id="checkzanahoria"> <label for="checkzanahoria">ZANAHORIA</label></div>
             <input type="button" class="detallesboton" id="zanahoriadetalles" value="ver detalles">
             <div class="informacion" id="infozanahoria">
               <h3>Consejos de cultivo de la zanahoria</h3>
@@ -145,11 +153,7 @@
         
         <div id="huertasoñada2">   <input type="button" class="botones" id="seleccionfinal2" value="ENVIAR SELECCIÓN HUERTA"></div>
  
-        <div class="detalles" id="detallesotoño">
-            <h4>Ingrese el nombre de la planta en mayúscula para saber más detalles de cultivo</h4>
-            <input type="text" class="rellenar" id="pepinolechuga1">
-            <input type="button" class="botones" id="pepinolechugaboton1" value="Enviar">
-        </div>
+       
             <div class="detalles" id="detallesotoño2">
                 <h4>Ingrese su zona para recomendaciones de viveros donde comprar suministros </h4>
                 <input type="radio" value="zona sur" name="zonas2" id="radiosur2">  <label for="radiosur2">Zona Sur</label>
@@ -161,11 +165,11 @@
 </div>
 <div  class="seccion" id="verano">
     <h2>Una huerta de verano es aquella que se cosecha entre septiembre y enero </h2>
-    <h3>Elegí las verduras y frutas que te interesen de esta selección</h3>
+    <h3 class="subtitulo">Elegí las verduras y frutas que te interesen de esta selección</h3>
     <div class="selecciones">
 
         <div class="elementos">
-          <input type="button" class="botones" id="elegirpapasv" value="papas">
+          <div> <input type="checkbox" name="verdurasverano" value="papa" id="checkpapa"> <label for="checkpapa">PAPA</label></div>
           <input type="button" class="detallesboton" id="papadetalles" value="ver detalles">
           <div class="informacion" id="infopapa">
             <h3>Consejos de cultivo de la papa</h3>
@@ -180,7 +184,7 @@
         </div>
 
         <div class="elementos">
-            <input type="button" class="botones" id="elegirtomatesv" value="tomates">
+          <div> <input type="checkbox" name="verdurasverano" value="tomate" id="checktomate"> <label for="checktomate">TOMATE</label></div>
             <input type="button" class="detallesboton" id="tomatedetalles" value="ver detalles">
             <div class="informacion" id="infotomate">
               <h3>Consejos de cultivo del tomate</h3>
@@ -195,7 +199,8 @@
             </div>
           </div>
 
-        <div class="elementos"> <input type="button" class="botones" id="elegirlechugav" value="lechuga">
+        <div class="elementos"> 
+          <div> <input type="checkbox" name="verdurasverano" value="lechuga" id="checklechuga2"> <label for="lechuga2">LECHUGA</label></div>
           <input type="button" class="detallesboton" id="lechugadetalles2" value="ver detalles">
           <div class="informacion" id="infolechuga2">
             <h3>Consejos de cultivo de la lechuga</h3>
@@ -208,7 +213,8 @@
             <div><img src="img/lechuga.png" alt="lechuga"></div>
           </div>
 
-          <div class="elementos"> <input type="button" class="botones" id="elegiracelgav" value="acelga">
+          <div class="elementos">
+            <div> <input type="checkbox" name="verdurasverano" value="acelga" id="checkacelga2"> <label for="checkacelga2">ACELGA</label></div>
             <input type="button" class="detallesboton" id="acelgadetalles2" value="ver detalles">
             <div class="informacion" id="infoacelga2">
               <h3>Consejos de cultivo de la acelga</h3>
@@ -221,7 +227,7 @@
             <div><img src="img/acelga.png" alt="acelga"></div>
           </div>
 
-          <div class="elementos"> <input type="button" class="botones" id="elegiruvasv" value="uvas">
+          <div class="elementos"> <div><input type="checkbox" name="verdurasverano" value="uva" id="checkuva"> <label for="checkuva">UVA</label></div>
             <input type="button" class="detallesboton" id="uvasdetalles" value="ver detalles">
             <div class="informacion" id="infouvas">
               <h3>Consejos de cultivo de la uva</h3>
@@ -234,8 +240,10 @@
             <div><img src="img/uva.png" alt="frutillas"></div>
           </div>
 
-          <div class="elementos"> <input type="button" class="botones" id="elegirfrutillasv" value="frutillas">
+          <div class="elementos"> <div> <input type="checkbox" name="verdurasverano" value="frutilla" id="checkfrutilla"> <label for="checkfrutilla">FRUTILLA</label></div> 
+        
             <input type="button" class="detallesboton" id="frutilladetalles" value="ver detalles">
+           
             <div class="informacion" id="infofrutilla">
               <h3>Consejos de cultivo de la frutilla</h3>
               <ul>
@@ -248,8 +256,9 @@
           </div>
 
           <div class="elementos">
-            <input type="button" class="botones" id="elegirpepinov" value="pepino">
+           <div>  <input type="checkbox" name="verdurasverano" value="pepino" id="checkpepino"> <label for="checkpepino">PEPINO</label></div>
             <input type="button" class="detallesboton" id="pepinodetalles" value="ver detalles">
+          
             <div class="informacion" id="infopepino">
               <h3>Consejos de cultivo del pepino</h3>
               <ul>
@@ -263,7 +272,7 @@
             </div>
           </div>
           <div class="elementos">
-            <input type="button" class="botones" id="elegirberenjenav" value="berenjena">
+            <div>  <input type="checkbox" name="verdurasverano" value="berenjena" id="checkberenjena"> <label for="checkberenjena">BERENJENA</label></div>
             <input type="button" class="detallesboton" id="berenjenadetalles" value="ver detalles">
             <div class="informacion" id="infoberenjena">
               <h3>Consejos de cultivo de la berenjena</h3>
@@ -278,7 +287,7 @@
             </div>
           </div>
           <div class="elementos">
-            <input type="button" class="botones" id="elegirchauchav" value="chaucha">
+            <div>  <input type="checkbox" name="verdurasverano" value="chaucha" id="checkchaucha"> <label for="checkchaucha">CHAUCHA</label></div>
             <input type="button" class="detallesboton" id="chauchadetalles" value="ver detalles">
             <div class="informacion" id="infochaucha">
               <h3>Consejos de cultivo de la chaucha</h3>
@@ -294,7 +303,7 @@
           </div>
   
         <div class="elementos">
-          <input type="button" class="botones" id="elegirzanahoriav" value="zanahorias">
+          <div>  <input type="checkbox" name="verdurasverano" value="zanahoria" id="checkzanahoria2"> <label for="checkzanahoria2">ZANAHORIA</label></div>
           <input type="button" class="detallesboton" id="zanahoriadetalles2" value="ver detalles">
           <div class="informacion" id="infozanahoria2">
             <h3>Consejos de cultivo de la zanahoria</h3>
@@ -309,7 +318,7 @@
         </div>
   
         <div class="elementos">
-          <input type="button" class="botones" id="elegirrabanitosv" value="rabanitos">
+          <div>  <input type="checkbox" name="verdurasverano" value="rabanito" id="checkrabanito"> <label for="checkrabanito">RABANITO</label></div>
           <input type="button" class="detallesboton" id="rabanitosdetalles" value="ver detalles">
           <div class="informacion" id="inforabanitos">
             <h3>Consejos de cultivo del rabanito</h3>
@@ -326,11 +335,7 @@
   
       </div>
       <div id="huertasoñada">   <input type="button" class="botones" id="seleccionfinal" value="ENVIAR SELECCIÓN HUERTA"></div>
-      <div class="detalles" id="detallesverano">
-        <h4>Ingrese el nombre de la planta en mayúscula para saber más detalles de cultivo</h4>
-        <input type="text" class="rellenar" id="pepinolechuga">
-        <input type="button" class="botones" id="pepinolechugaboton" value="Enviar">
-    </div>
+     
         <div class="detalles" id="detallesverano2">
             <h4>Ingrese su zona para recomendaciones de viveros donde comprar suministros </h4>
         
